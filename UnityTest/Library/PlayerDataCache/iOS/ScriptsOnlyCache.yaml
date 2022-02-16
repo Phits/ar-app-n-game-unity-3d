@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARFeatheredPlaneMeshVisualizer
+    - PlaceObjectOnPlane
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARFoundation.dll:
@@ -12,6 +13,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPlaneManager
     - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     Unity.XR.ARKit.Editor.dll:
@@ -49,8 +51,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -60,23 +60,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1496}
     - Class: 114
-      Script: {instanceID: 1618}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3806}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 3868}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 3916}
+      Script: {instanceID: 3920}
     - Class: 114
-      Script: {instanceID: 4164}
+      Script: {instanceID: 4168}
     - Class: 114
-      Script: {instanceID: 4686}
+      Script: {instanceID: 4692}
+    - Class: 114
+      Script: {instanceID: 4858}
+    - Class: 114
+      Script: {instanceID: 17130}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -780,6 +784,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a25b2cdcbb5d72e046b7b95e7b811fa6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaceObjectOnPlane
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
