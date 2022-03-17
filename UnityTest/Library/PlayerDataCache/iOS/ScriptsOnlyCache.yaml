@@ -58,29 +58,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1620}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 2532}
-    - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 2530}
     - Class: 114
       Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3810}
+      Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3812}
     - Class: 114
-      Script: {instanceID: 3920}
+      Script: {instanceID: 3874}
+    - Class: 114
+      Script: {instanceID: 3922}
     - Class: 114
       Script: {instanceID: 4168}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4690}
     - Class: 114
-      Script: {instanceID: 4858}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 17130}
+      Script: {instanceID: 5134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -793,4 +793,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/Shared/Previously Relocated Items/Security/Fitzs-Jobs/AR/Training/Xcode
+  playerPath: /Users/fitz2022/Documents/Training/iOS
